@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz Control Remoto de Telescopio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interfaz Control Remoto de Telescopio</h1>
+        <h1></h1>
+        <div id="telescopeControls">
+            <button id="btnMoveUp">Mover Arriba</button>
+            <button id="btnMoveDown">Mover Abajo</button>
+            <button id="btnMoveLeft">Mover Izquierda</button>
+            <button id="btnMoveRight">Mover Derecha</button>
+            <button id="btnCaptureImage">Capturar Imagen</button>
+            <button id="btnMovehorizontal">Soporte</button>
+        </div>
+        <div id="imageContainer">
+            <img id="capturedImage" src="" alt="Imagen del telescopio">
+        </div>
+            <P style="color: rgb(141, 173, 202);">COORDENADAS</P>
+            <P style="color: rgb(217, 222, 227);">LongGGMMss: 1°17'48,696W</P>
+            <P style="color: rgb(190, 200, 208);">LatitudGGMMSS: 40°54'51,516''N</P>
+            <P style="color: aliceblue;">LongQGIS 1 17 48, 696W</P>
+            <P style="color: aliceblue;">LatitudQGIS 40 54 51 516N</P>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
